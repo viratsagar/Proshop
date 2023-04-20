@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "notebook.formatOnSave.enabled": true,
+  "prettier.semi": true,
+  "scss.completion.completePropertyWithSemicolon": true,
+  "less.completion.completePropertyWithSemicolon": true,
+  "css.completion.completePropertyWithSemicolon": true,
+  "typescript.format.insertSpaceAfterSemicolonInForStatements": true
+}
