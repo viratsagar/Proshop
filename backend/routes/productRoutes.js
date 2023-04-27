@@ -11,6 +11,7 @@ router.get(
   "/",
   asyncHandler(async (req, res) => {
     const products = await Product.find({});
+    //throw Error("Something is wrong");
     res.json(products);
   })
 );
@@ -24,6 +25,7 @@ router.get(
     const product = await Product.findById(req.params.id);
 
     if (product) {
+      //throw Error("Something is wrong in the id route");
       res.json(product);
     } else {
       res.status(404);
